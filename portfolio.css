@@ -1,0 +1,314 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* header */
+
+header {
+    min-height: 70vh;
+    padding: 10px;
+    background: #252b38;
+    position: relative;
+}
+header::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    background-image: url(/images/profile-1.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.logo {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.top {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    gap: 25rem;
+    padding-top: 1rem;
+}
+.top,
+.intro {
+    position: relative;
+    z-index: 1;
+}
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 2rem;
+}
+ul a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.contact-us a {
+    text-decoration: none;
+    background-color: rgb(56, 100, 241);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.intro {
+    margin: 100px;
+    width: 100%;
+}
+.intro h1 {
+    color: white;
+    font-size: 4rem;
+}
+.intro p {
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+.contact {
+    display: flex;
+    gap: 20px;
+}
+button {
+    background-color: rgb(56, 100, 241);
+    padding: 10px;
+    border: none;
+    color: white;
+    width: 10%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.contact a {
+    padding: 10px;
+    color: white;
+}
+
+/* First section */
+
+.first-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    padding: 20px;
+}
+.skills {
+    display: flex;
+    gap: 20rem;
+    justify-content: center;
+    align-items: center;
+}
+.skills i {
+    color: grey;
+    font-size: 35px;
+}
+
+/* second-section */
+
+.experiences {
+    display: flex;
+    padding: 6rem;
+    background: #252b38;
+    gap: 10rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+.number {
+    color: rgb(56, 100, 241);
+    font-size: 5rem;
+}
+.plus {
+    color: rgb(56, 100, 241);
+    font-size: 3rem;
+}
+.experience p {
+    color: white;
+    font-size: 1.5rem;
+}
+.experience-1 {
+    padding-left: rem;
+    width: 100%;
+}
+.experience-1 h4 {
+    text-align: center;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-bottom: 1rem;
+    font-size: 1.5rem;
+}
+.cards {
+    display: flex;
+    gap: 1rem;
+}
+.card-1 {
+    width: 30%;
+    height: 150%;
+    background-color: rgb(56, 100, 241);
+    padding: 0 10px;
+    border-radius: 5px;
+}
+.card-1 i {
+    padding-top: 80px;
+    color: white;
+}
+.card i {
+    padding-top: 0px;
+    color: white;
+}
+.card-1 p {
+    padding-bottom: 10px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.card-2 {
+    width: 30%;
+    height: 150%;
+    background-color: grey;
+    padding: 0 10px;
+    border-radius: 5px;
+}
+.card-2 i {
+    padding-top: 80px;
+    color: black;
+}
+.card i {
+    padding-top: 80px;
+    color: black;
+}
+.card-2 p {
+    padding-bottom: 10px;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Third section */
+
+.abouts {
+    padding: 6rem;
+    background-color: #333d50;
+    display: flex;
+    padding-bottom: 4rem;
+    padding-top: 4rem;
+}
+.about {
+    display: flex;
+}
+.about img {
+    width: 50vh;
+    height: 53vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+.apostrophe {
+    font-size: 5rem;
+    padding-bottom: 0px;
+    padding-left: 20px;
+    color: white;
+    padding-top: 0px;
+}
+.about-1 p {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 0px 20px;
+    padding-top: 0px;
+    justify-content: center;
+    font-size: 1.1rem;
+}
+.about-1 i {
+    padding: 20px; 
+}
+.fa-arrow-left {
+    color: grey;
+    cursor: pointer;
+}
+.fa-arrow-right {
+    color: rgb(56, 100, 241);
+    cursor: pointer;
+}
+.about {
+    display: flex;
+    flex-direction: column;
+}
+.about p {
+    color: white;
+    font-size: 1rem;
+}
+.numbers {
+    font-size: 4rem;
+    color: rgb(56, 100, 241);
+}
+
+/* Footer section */
+
+footer {
+    padding-top: 4rem;
+    padding-left: 6rem;
+    background-color:black;
+}
+.connect {
+    display: flex;
+    gap: 10rem;
+}
+.lets-connect h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3rem;
+    color: white;
+    padding-top: 2.5rem;
+}
+.lets-connect i {
+    color: white;
+    padding-left: 10px;
+}
+.footer-p {
+    justify-content: center;
+    padding-bottom: 10px;
+    text-align: center;
+    padding-top: 4rem;
+    color: white;
+}
+.for-clients {
+    justify-content: end;
+    display: flex;
+    flex-direction: column;
+    padding-left: 35rem;
+}
+.client label {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.client {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-bottom: 10px;
+}
+.client input {
+    padding: 10px;
+    width: 50vh;
+    border: none;
+    border-radius: 5px;
+}
+.client textarea {
+    padding: 10px;
+    width: 50vh;
+    border: none;
+    border-radius: 5px;
+}
+.for-clients a {
+    color: rgb(56, 100, 241);
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.for-clients i {
+    padding-left: 10px;
+    align-items: center;
+}
