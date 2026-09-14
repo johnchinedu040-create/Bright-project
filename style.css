@@ -76,7 +76,7 @@ ul a {
     display: flex;
     gap: 20px;
 }
-button {
+.Email-me {
     background-color: rgb(56, 100, 241);
     padding: 10px;
     border: none;
@@ -84,6 +84,7 @@ button {
     width: 10%;
     border-radius: 5px;
     cursor: pointer;
+    text-decoration: none;
 }
 .contact a {
     padding: 10px;
